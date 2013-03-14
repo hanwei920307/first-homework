@@ -40,26 +40,41 @@
         <a data-role="button" href="#page1" class="ui-btn-left">
             back
         </a>
-        <h1>
+        <h3>
             订餐
-        </h1>
+        </h3>
     </div>
     <div data-role="content">
-        <p>人：</p>
-        <a data-role="button" href="#page1" >
-        </a>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="textinput3">
+                    人：
+                </label>
+                <input name="" id="textinput3" placeholder="" value="" type="text" style="width:1330px" >
+            </fieldset>
+        </div>
         <a data-role="button" href="#page3">
             选人
         </a>
-        <p>餐厅：</p>
-        <a data-role="button" href="#page1">
-        </a>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="textinput4">
+                    餐厅：
+                </label>
+                <input name="" id="textinput4" placeholder="" value="" type="text" style="width:1330px" >
+            </fieldset>
+        </div>
         <a data-role="button" href="#page4">
             选餐厅
         </a>
-        <p>套餐：</p>
-        <a data-role="button" href="#page1">
-        </a>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="textinput5">
+                    套餐：
+                </label>
+                <input name="" id="textinput5" placeholder="" value="" type="text" style="width:1330px">
+            </fieldset>
+        </div>
         <a data-role="button" href="#page5">
             选套餐
         </a>
@@ -69,6 +84,34 @@
     </div>
 </div>
 
+
+<div data-role="page" id="page3" >
+    <div data-role="header" data-theme="a">
+        <a data-role="button" href="page2" class="ui-btn-left" >
+            back
+        </a>
+        <h1>
+            选人
+        </h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview"  data-divider-theme="b" data-inset="true">
+            <li data-theme="c">
+                <a href="#textinput3" data-transition="slide">
+                   赵大
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#textinput3" data-transition="slide">
+                    钱二
+                </a>    
+            </li>
+            <li data-theme="c">
+                <a>
+            </li>  
+        </ul>
+    </div>
+</div>
 
 
 
