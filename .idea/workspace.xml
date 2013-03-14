@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a82bfd-5814-487a-b994-c5741b623030" name="Default" comment="" />
+    <list default="true" id="e0a82bfd-5814-487a-b994-c5741b623030" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="mood-homework-1-lunch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1363238997639" ignored="false" />
-    <file path="/index.html" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1363177798034" ignored="false" />
+    <file path="/index.html" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1363244103526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="96" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.7821229">
+            <state line="3" column="119" selection-start="161" selection-end="161" vertical-scroll-proportion="0.07821229">
               <folding />
             </state>
           </provider>
@@ -349,7 +351,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1372" height="745" extended-state="7" />
+    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,11 +475,6 @@
         <state line="10" column="28" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/订餐页面.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/选人.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -488,17 +485,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/订单页面.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/选套餐.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/首页.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -510,9 +497,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/订单页面.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/订餐页面.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/首页.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="96" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.7821229">
+        <state line="3" column="119" selection-start="161" selection-end="161" vertical-scroll-proportion="0.07821229">
           <folding />
         </state>
       </provider>
