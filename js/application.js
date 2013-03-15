@@ -1,4 +1,4 @@
-function  myFunction(){
+function  selectpeople(){
 var str="";
 for(var i=0;i<users.length;i++)
  {
@@ -7,4 +7,11 @@ for(var i=0;i<users.length;i++)
 
  }
 }
-
+function  selectfield(){
+ var str="";
+ for(var i=0;i<restaurants.length;i++)
+ {
+     str += '<li><a href="#selectfield">'+restaurants[i].name+'</a></li>';
+     $("#selectfield").html(str);
+ }
+}

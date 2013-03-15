@@ -53,7 +53,7 @@
                 <input name="" id="textinput3" placeholder="" value="" type="text" style="width:1330px" >
             </fieldset>
         </div>
-        <a data-role="button" href="#page3" onclick="myFunction()">
+        <a data-role="button" href="#page3" onclick="selectpeople()">
             选人
         </a>
         <div data-role="fieldcontain">
@@ -64,7 +64,7 @@
                 <input name="" id="textinput4" placeholder="" value="" type="text" style="width:1330px" >
             </fieldset>
         </div>
-        <a data-role="button" href="#page4">
+        <a data-role="button" href="#page4" onclick="selectfield()">
             选餐厅
         </a>
         <div data-role="fieldcontain">
@@ -75,7 +75,7 @@
                 <input name="" id="textinput5" placeholder="" value="" type="text" style="width:1330px">
             </fieldset>
         </div>
-        <a data-role="button" href="#page5">
+        <a data-role="button" href="#page5" onclick="selectdinner()" >
             选套餐
         </a>
         <a data-role="button" href="#page1">
@@ -96,6 +96,22 @@
     </div>
     <div data-role="content">
         <ul data-role="listview" id="selectpeople" data-divider-theme="b" data-inset="true">
+        </ul>
+    </div>
+</div>
+
+
+<div data-role="page" id="page4">
+    <div data-role="header" data-theme="a">
+        <a data-role="button" href="#page2" class="ui-btn-left">
+            back
+        </a>
+        <h1>
+            选餐厅
+        </h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" id="selectfield" data-divider-theme="b" data-inset="true">
         </ul>
     </div>
 </div>
