@@ -9,11 +9,18 @@ function  select_people()
     try{
         $("#list_people").listview('refresh');
     } catch(e) {}
+
 }
 
-function  select_people_end(id)
+function  select_people_end(i)
 {
-    localStorage.people=users[id].name;
+    localStorage.people = users[i].name;
+}
+
+function   deliver_people_name()
+{
+     $("#text_select_people").val(localStorage.people);
+
 }
 
 function  select_field(){
@@ -21,8 +28,8 @@ var str="";
 for(var i=0;i<restaurants.length;i++)
   {
      str += '<li><a>'+restaurants[i].name+'</a></li>';
-     $("#select_field").html(str);
   }
+     $("#select_field").html(str);
    try
    {
     $("#select_field").listview('refresh');

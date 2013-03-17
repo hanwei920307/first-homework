@@ -47,45 +47,45 @@
     <div data-role="content">
         <div data-role="fieldcontain">
             <fieldset data-role="controlgroup">
-                <label for="textinput3">
+                <label for="text_select_people">
                     人：
                 </label>
-                <input name="" id="textinput3" placeholder="" value="" type="text" style="width:1330px" >
+                <input name="" id="text_select_people" placeholder="" value="" type="text" style="width:1330px" >
             </fieldset>
         </div>
-        <a data-role="button" href="#select_people_page " onclick="select_people()">
+        <a data-role="button" id="people"  href="#select_people_page " onclick="select_people()">
             选人
         </a>
         <div data-role="fieldcontain">
             <fieldset data-role="controlgroup">
-                <label for="textinput4">
+                <label for="text_select_field">
                     餐厅：
                 </label>
-                <input name="" id="textinput4" placeholder="" value="" type="text" style="width:1330px" >
+                <input name="" id="text_select_field" placeholder="" value="" type="text" style="width:1330px" >
             </fieldset>
         </div>
-        <a data-role="button" href="#select_field_page" onclick="select_field()">
+        <a data-role="button" href="#select_field_page"id="field" onclick="select_field()">
             选餐厅
         </a>
         <div data-role="fieldcontain">
             <fieldset data-role="controlgroup">
-                <label for="textinput5">
+                <label for="text_select_meal">
                     套餐：
                 </label>
-                <input name="" id="textinput5" placeholder="" value="" type="text" style="width:1330px">
+                <input name="" id="text_select_meal" placeholder="" value="" type="text" style="width:1330px">
             </fieldset>
         </div>
         <a data-role="button" href="#select_meal_page" onclick="select_meal()" >
             选套餐
         </a>
-        <a data-role="button" href="#first_page_order_meal ">
+        <a data-role="button" href="#first_page_order_meal">
             确认
         </a>
     </div>
 </div>
 
 
-<div data-role="page" id="select_people_page" onclick="select_people_end()" >
+<div data-role="page" id="select_people_page" >
     <div data-role="header" data-theme="a">
         <a data-role="button" href="#order_meal" class="ui-btn-left" >
             back
@@ -95,7 +95,7 @@
         </h1>
     </div>
     <div data-role="content">
-        <ul data-role="listview" id="list_people">
+        <ul data-role="listview" id="list_people" onclick="deliver_people_name()" >
         </ul>
     </div>
 </div>
