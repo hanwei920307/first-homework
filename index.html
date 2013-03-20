@@ -75,7 +75,7 @@
                 <input name="" id="text_select_meal" placeholder="" value="" type="text" style="width:1330px">
             </fieldset>
         </div>
-        <a data-role="button" href="#select_meal_page" onclick="select_meal()" >
+        <a data-role="button" href="#select_meal_page"  id="meal"  onclick="select_meal()" >
             选套餐
         </a>
         <a data-role="button" href="#first_page_order_meal">
@@ -112,6 +112,22 @@
     </div>
     <div data-role="content">
         <ul data-role="listview" id="select_field" data-divider-theme="b"  onclick="deliver_field_end()" >
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="select_meal_page">
+    <div data-role="header" data-theme="a">
+        <a data-role="button" href="#order_meal" class="ui-btn-left">
+            back
+        </a>
+        <h1>
+            选套餐
+        </h1>
+    </div>
+    <div data-role="content" >
+        <ul data-role="listview" id="select_meal"  data-divider-theme="b"  onclick="deliver_meal_end()">
+
         </ul>
     </div>
 </div>
