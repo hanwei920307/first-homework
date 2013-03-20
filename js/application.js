@@ -51,7 +51,8 @@ function  select_meal()
 var meal="";
 for(var i=0;i<foods[localStorage.field].length;i++)
    {
-    meal += '<li><a href="#order_meal"  onclick="select_meal_end(' + i + ')" >'+ foods[localStorage.field][i].name+'</a></li>'
+    meal += '<li><a href="#order_meal"  onclick="select_meal_end(' + i + ')" >' + foods[localStorage.field][i].name +
+        '<span class="ui-li-aside" font-size: small>￥' + foods[localStorage.field][i].price + '</span></a></li>';
    }
     $("#select_meal").html(meal);
     try
