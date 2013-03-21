@@ -64,10 +64,33 @@ for(var i=0;i<foods[localStorage.field].length;i++)
 function select_meal_end(id)
 {
     localStorage.meal= foods[localStorage.field][id].name;
+    localStorage.price=foods[localStorage.field][id].price;
 }
 
 function deliver_meal_end()
 {
     $("#text_select_meal").val(localStorage.meal);
 }
+
+done_select_people="";
+done_select_field="";
+done_select_meal="";
+meal_price="";
+
+
+function confirm()
+{
+    done_select_people = localStorage.people;
+    done_select_field =  localStorage.field;
+    done_select_meal =  localStorage.meal;
+    meal_price = localStorage.price ;
+    clear_text();
+}
+
+function clear_text()
+{
+    $("#text_select_people").val("");
+    $("#text_select_meal").val("");
+}
+
 
