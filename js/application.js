@@ -107,22 +107,23 @@ function get_information_from_text()
 function  list_order_information()
 {
     var show_order_information="";
+    var str_diliver_name='<li data-role="list-divider">' + localStorage.count_people + '人已定</li>';
     for (var i=1;i<choice_name.length;i++)
         {
             var color="";
             if(parseInt(choice_price[i])>12)
             {
-                color='style="color: red"'
+                color='style="color: red"';
             }
             show_order_information += '<li><h3 style="font-size: large" >' + choice_name[i]
-                + '</h3><p class="ui-li-aside ui-li-desc"><strong>￥'
+                + '</h3><p class="ui-li-aside ui-li-desc" ' + color + '><strong>￥'
                 + choice_price[i] + '</p><h3 class="ui-li-desc" style="font-size: medium">' +choice_field[i] + '  '
                 + choice_meal[i] + '</strong></h3></li>'
         }
     $("#show_order_form").html(show_order_information);
     try
     {
-    $("#show_order_form_page").listview('refresh');
+    $("#show_order_form").listview('refresh');
     } catch(e) {}
 
 }
