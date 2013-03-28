@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e0a82bfd-5814-487a-b994-c5741b623030" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mood-homework-1-lunch.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364198927985" ignored="false" />
-    <file path="/index.html" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1363944896883" ignored="false" />
-    <file path="/application.js" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364201026350" ignored="false" />
-    <file path="/users.json" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1363508456426" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364448120350" ignored="false" />
+    <file path="/index.html" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364394871373" ignored="false" />
+    <file path="/application.js" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364460286632" ignored="false" />
+    <file path="/users.json" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364294507804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,51 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="订餐页面.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/订餐页面.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="首页.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/首页.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="订单页面.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/订单页面.png">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurants.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/restaurants.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="76" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/users.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="54" selection-start="4486" selection-end="4486" vertical-scroll-proportion="-76.833336">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -89,20 +49,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="62" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.6976744">
+            <state line="163" column="0" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1364201113405" expanded="false" signature="2783:2799" placeholder="..." />
-                <marker date="1364201113405" expanded="true" signature="2975:2992" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="1217:1429" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="1277:1424" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="3239:3542" placeholder="..." />
+                <marker date="1364460367604" expanded="false" signature="3251:3267" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="3268:3312" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="3368:3532" placeholder="..." />
+                <marker date="1364460367604" expanded="false" signature="3443:3460" placeholder="..." />
+                <marker date="1364460367604" expanded="true" signature="3461:3523" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="40" selection-start="4699" selection-end="4699" vertical-scroll-proportion="2.093458">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="选餐厅.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/选餐厅.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foods.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/foods.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/restaurants.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="76" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="首页.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/首页.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -127,6 +138,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/data/users.json" />
+        <option value="$USER_HOME$/下载/dincan-master/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/application.js" />
       </list>
@@ -178,6 +190,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mood-homework-1-lunch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mood-homework-1-lunch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mood-homework-1-lunch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,7 +400,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22484756" sideWeight="0.6720779" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2492378" sideWeight="0.6720779" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,31 +473,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/首页.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="88" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/下载/dincan-master/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.310219" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/foods.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -481,23 +483,38 @@
         <state line="40" column="41" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/users.json">
+    <entry file="file://$USER_HOME$/下载/dincan-master/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="95" selection-start="1405" selection-end="1405" vertical-scroll-proportion="1.5934066" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/restaurants.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="76" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/订单页面.png">
+    <entry file="file://$PROJECT_DIR$/images/订餐页面.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/下载/dincan-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="87" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="79" selection-end="79" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/选餐厅.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/foods.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/首页.png">
@@ -505,7 +522,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/选餐厅.png">
+    <entry file="file://$PROJECT_DIR$/data/restaurants.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="76" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/选人.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -515,30 +539,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/订餐页面.png">
+    <entry file="file://$PROJECT_DIR$/images/订单页面.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/选人.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="54" selection-start="4486" selection-end="4486" vertical-scroll-proportion="-76.833336">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="62" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.6976744">
+        <state line="163" column="0" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1364201113405" expanded="false" signature="2783:2799" placeholder="..." />
-            <marker date="1364201113405" expanded="true" signature="2975:2992" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="1217:1429" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="1277:1424" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="3239:3542" placeholder="..." />
+            <marker date="1364460367604" expanded="false" signature="3251:3267" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="3268:3312" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="3368:3532" placeholder="..." />
+            <marker date="1364460367604" expanded="false" signature="3443:3460" placeholder="..." />
+            <marker date="1364460367604" expanded="true" signature="3461:3523" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="40" selection-start="4699" selection-end="4699" vertical-scroll-proportion="2.093458">
+          <folding />
         </state>
       </provider>
     </entry>

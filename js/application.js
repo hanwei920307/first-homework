@@ -1,3 +1,14 @@
+for(var i=0;i<users.length;i++)
+{
+    users[i].count=0;
+}
+
+function select_person(i)
+{
+    localStorage.person=i;
+}
+
+
 function  select_people()
 {
     var str="";
@@ -15,6 +26,7 @@ function  select_people()
 
 function  select_people_end(i)
 {
+    select_person(i);
     localStorage.people = users[i].name;
 }
 
@@ -31,10 +43,10 @@ for(var i=0;i<restaurants.length;i++)
      str += '<li><a href="#order_meal"  onclick="select_field_end(' + i + ')" >'+restaurants[i].name+'</a></li>';
   }
      $("#select_field").html(str);
-   try
-   {
+  try
+  {
     $("#select_field").listview('refresh');
-   } catch(e) {}
+  } catch(e) {}
 }
 
 function  select_field_end(a)
@@ -77,11 +89,10 @@ done_select_field="";
 done_select_meal="";
 meal_price="";
 
-
 function confirm()
 {
-    done_select_people +="*" + localStorage.people;
-    localStorage.people.count ++;
+    done_select_people +="*"+ localStorage.people;
+    users[localStorage.person].count ++;
     done_select_field +="*"+ localStorage.field;
     done_select_meal +="*"+ localStorage.meal ;
     meal_price += "*" + localStorage.price ;
@@ -103,11 +114,25 @@ function get_information_from_text()
     choice_price=meal_price.split('*');
 }
 
+function not_order_meal_name()
+{
+    localStorage.all_people=users.length;
+    localStorage.not_order_meal_name="";
+    for(var i=0;i<users.length;i++)
+    {
+        if(users[i].count==0)
+        {
+            localStorage.not_order_meal_name += "*" + users[i].name;
+            localStorage.all_people -= 1;
+        }
+    }
+}
+
 
 function  list_order_information()
 {
     var show_order_information="";
-    var str_diliver_name='<li data-role="list-divider">' + localStorage.count_people + '人已定</li>';
+    var str_diliver_name='<li data-role="list-divider">' + localStorage.all_people + '人已定</li>';
     for (var i=1;i<choice_name.length;i++)
         {
             var color="";
@@ -120,7 +145,7 @@ function  list_order_information()
                 + choice_price[i] + '</p><h3 class="ui-li-desc" style="font-size: medium">' +choice_field[i] + '  '
                 + choice_meal[i] + '</strong></h3></li>'
         }
-    $("#show_order_form").html(show_order_information);
+    $("#show_order_form").html(str_diliver_name+show_order_information);
     try
     {
     $("#show_order_form").listview('refresh');
@@ -128,5 +153,12 @@ function  list_order_information()
 
 }
 
+function all_order_meal_funciton()
+{
+    not_order_meal_name()
+    list_order_information()
+    not_order_meal_list()
+    count_people_and_price()
+}
 
 

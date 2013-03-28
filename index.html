@@ -28,7 +28,7 @@
     <a data-role="button" href="#order_meal">
         帮订餐
        </a>
-       <a data-role="button"  href="#show_order_form_page " onclick="list_order_information()"  >
+       <a data-role="button"  href="#show_order_form_page " onclick="all_order_meal_funciton()"  >
         看订单
        </a>
     </div>
@@ -143,6 +143,11 @@
     <div data-role="content">
         <ul data-role="listview" id="show_order_form" >
         </ul>
+        <ul data-role="listview" id="show_not_order_form" >
+        </ul>
+        <div data-role="footer" data-theme="a" >
+            <h3 id="show_total"></h3>
+        </div>
     </div>
 </div>
 
