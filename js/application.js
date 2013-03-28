@@ -1,6 +1,7 @@
 for(var i=0;i<users.length;i++)
 {
     users[i].count=0;
+    localStorage.field="";
 }
 
 function select_person(i)
@@ -127,7 +128,13 @@ function not_order_meal_name()
         }
     }
 }
-
+function all_order_meal_funciton()
+{
+    not_order_meal_name()
+    list_order_information()
+    not_order_meal_list()
+    count_people_and_price()
+}
 
 function  list_order_information()
 {
@@ -150,15 +157,40 @@ function  list_order_information()
     {
     $("#show_order_form").listview('refresh');
     } catch(e) {}
-
 }
 
-function all_order_meal_funciton()
+function not_order_meal_list()
 {
-    not_order_meal_name()
-    list_order_information()
-    not_order_meal_list()
-    count_people_and_price()
+    var not_order_meal_people_num=users.length-localStorage.all_people;
+    var show_not_order_meal_num='<li data-role="list_divider" data-theme="b">' + not_order_meal_people_num + '人未定</li>'
+    var not_order_meal_name="";
+    var people=localStorage.not_order_meal_name.split('*')
+    for(var i=1;i< people.length;i++)
+    {
+        not_order_meal_name += '<li><h3>' + people[i] + '</h3></li>'
+    }
+    $("#show_not_order_form").html(show_not_order_meal_num+not_order_meal_name);
+    try
+    {
+        $("#show_not_order_form").listview('refresh');
+    } catch(e) {}
+}
+
+function count_people_and_price()
+{
+    var total="";
+    var num=users.length - localStorage.all_people;
+    var count_prices=0;
+    for (var i=1;i<choice_price.length;i++)
+    {
+        count_prices += parseFloat(choice_price[i]);
+    }
+    str_text=localStorage.all_people + '人已定，' + num + '人未定，总计' + count_prices + '元'
+    $("#show_total").html(str_text);
+    try
+    {
+        $("#show_total").listview('refresh');
+    } catch(e) {}
 }
 
 
