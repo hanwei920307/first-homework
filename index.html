@@ -17,18 +17,18 @@
     <script src="js/application.js"></script>
 
 </head>
-<body>
-<div data-role="page"  id="first_page_order_meal">
+<body onload="all_onload()">
+<div data-role="page"  id="first_page_order_meal" onclick="clear_and_increase_count_attribute()" >
     <div data-theme="a" data-role="header">
         <h1>
             订餐
         </h1>
     </div>
     <div data-role="content">
-    <a data-role="button" href="#order_meal" onclick="clear_meal_list()">
+    <a data-role="button" href="#order_meal">
         帮订餐
        </a>
-       <a data-role="button"  href="#show_order_form_page " onclick="all_order_meal_funciton()"  >
+       <a data-role="button"  href="#show_order_form_page " onclick="display_all()"  >
         看订单
        </a>
     </div>
@@ -95,7 +95,7 @@
         </h1>
     </div>
     <div data-role="content">
-        <ul data-role="listview" id="list_people" onclick="deliver_people_name()" >
+        <ul data-role="listview" id="list_people">
         </ul>
     </div>
 </div>
