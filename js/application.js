@@ -117,9 +117,8 @@ function save_all_order()
     }
 }
 
-function confirm()
+function save_orders()
 {
-    save_this_order();
     var name=$("#text_select_people").val()
     var field=$("#text_select_field").val()
     var meal=$("#text_select_meal").val()
@@ -129,16 +128,22 @@ function confirm()
     var all_order_menu=JSON.parse(localStorage.all_order_menu)
     all_order_menu.push(order_menu)
     localStorage.all_order_menu=JSON.stringify(all_order_menu)
-    users[localStorage.person_id].count ++;
-    clear_text()
 }
-localStorage.all_orders = localStorage.all_orders ||"[]";
-
-function save_this_order()
+function confirm()
 {
-    users[localStorage.person_id].count++;
-    localStorage.all_orders=JSON.stringify(users);
+   // save_this_order();
+    save_orders()
+  //  users[localStorage.person_id].count ++;
+    clear_text()
+
 }
+//localStorage.all_orders = localStorage.all_orders ||"[]";
+
+/*function save_this_order()
+{
+  //  users[localStorage.person_id].count++;
+    localStorage.all_orders=JSON.stringify(users);
+} */
 
 function clear_text()
 {
@@ -155,7 +160,7 @@ function display_all()
     list_total()
 }
 
-function  compute_order_meal_people_num()
+/*function  compute_order_meal_people_num()
 {
     users=JSON.parse(localStorage.all_orders);
     localStorage.count_people=users.length;
@@ -167,14 +172,15 @@ function  compute_order_meal_people_num()
        }
 
     }
-}
+}   */
 
 
 function display_orders()
 {
-    compute_order_meal_people_num()
+   // compute_order_meal_people_num()
+    var orderPeopleNum=JSON.parse(localStorage.all_order_menu)
     var str="";
-    str='<li data-role="list-divider">' +  localStorage.count_people + '人已定</li>';
+    str='<li data-role="list-divider">' +  orderPeopleNum.length + '人已定</li>';
     var show_order_people_name="";
     var order_meal_people_num = JSON.parse(localStorage.all_order_menu)
     for (var i=0;i<order_meal_people_num.length;i++)
@@ -200,11 +206,11 @@ function render_order_meal_name(order_meal_name)
 
 function  list_order_meal_name()
 {
-    var list_orders=display_orders
+    var list_orders=display_orders()
     render_order_meal_name(list_orders)
 }
 
-function have_not_order_meal_name()
+/*function have_not_order_meal_name()
 {
     var not_order_name="";
     localStorage.not_orders_name = "";
@@ -218,20 +224,36 @@ function have_not_order_meal_name()
             localStorage.not_orders_name =JSON.stringify(not_order_name)
         }
     }
+} */
+function  list_have_not_meal_people()
+{
+    var orders_people = JSON.parse(localStorage.all_order_menu)
+    var str="";
+    for(var i=0;i<users.length;i++)
+    {
+        var is_ordered = false;
+        for(var j=0;j<orders_people.length;j++)
+        {
+            if(users[i].name == orders_people[j].select_name)
+            {
+                is_ordered = true;
+                break;
+            }
+        }
+        !is_ordered ? str += '<li>' + users[i].name + '</li>' : "";
+
+    }
+    return str;
 }
 
 
 function show_not_order_meal_list()
 {
-    have_not_order_meal_name()
-    var no_order_meal_people_num=users.length-localStorage.count_people;
+  //  have_not_order_meal_name()
+    var orderPeopleNum=JSON.parse(localStorage.all_order_menu)
+    var no_order_meal_people_num=users.length-orderPeopleNum.length;
     var show_not_order_meal_num='<li data-role="list-divider">' + no_order_meal_people_num + '人未定</li>'
-    var not_order_people_name=JSON.parse(localStorage.not_orders_name);
-    var noOrderName="";
-    for(var i=0;i<not_order_people_name.length;i++)
-    {
-           noOrderName += '<li><h3 style="font-size: large" >' + not_order_people_name[i] + '</h3></li>'
-    }
+    var noOrderName=list_have_not_meal_people();
     return show_not_order_meal_num + noOrderName
 }
 function render_show_not_order_meal_list(not_order_meal_list)
@@ -247,14 +269,15 @@ function  list_not_orders()
 
 function count_people_and_price()
 {
-    var no_order_meal_num=users.length - localStorage.count_people;
+    var orders_num = JSON.parse(localStorage.all_order_menu)
+    var no_order_meal_num=users.length - orders_num.length;
     var total_prices=0;
     var order_meal_people_num = JSON.parse(localStorage.all_order_menu)
     for (var i=0;i<order_meal_people_num.length;i++)
     {
         total_prices += parseFloat(order_meal_people_num[i].select_price);
     }
-    var total=localStorage.count_people + '人已定，' + no_order_meal_num + '人未定，总计' + total_prices + '元'
+    var total=orders_num.length+ '人已定，' + no_order_meal_num + '人未定，总计' + total_prices + '元'
     return total;
 }
 
