@@ -16,8 +16,6 @@ function convey_person_id(person_id)
     localStorage.person_id=person_id;
 }
 
-
-
 function translate_users_name_list_html() {
     var str = "";
     for (var i = 0; i < users.length; i++) {
@@ -131,27 +129,16 @@ function save_orders()
 }
 function confirm()
 {
-   // save_this_order();
     save_orders()
-  //  users[localStorage.person_id].count ++;
     clear_text()
 
 }
-//localStorage.all_orders = localStorage.all_orders ||"[]";
-
-/*function save_this_order()
-{
-  //  users[localStorage.person_id].count++;
-    localStorage.all_orders=JSON.stringify(users);
-} */
 
 function clear_text()
 {
     $("#text_select_people").val("");
     $("#text_select_meal").val("");
 }
-
-
 
 function display_all()
 {
@@ -160,24 +147,8 @@ function display_all()
     list_total()
 }
 
-/*function  compute_order_meal_people_num()
-{
-    users=JSON.parse(localStorage.all_orders);
-    localStorage.count_people=users.length;
-    for(var i=0;i<users.length;i++)
-    {
-       if(users[i].count==0)
-       {
-           localStorage.count_people -= 1;
-       }
-
-    }
-}   */
-
-
 function display_orders()
 {
-   // compute_order_meal_people_num()
     var orderPeopleNum=JSON.parse(localStorage.all_order_menu)
     var str="";
     str='<li data-role="list-divider">' +  orderPeopleNum.length + '人已定</li>';
@@ -210,24 +181,10 @@ function  list_order_meal_name()
     render_order_meal_name(list_orders)
 }
 
-/*function have_not_order_meal_name()
-{
-    var not_order_name="";
-    localStorage.not_orders_name = "";
-    for(var i=0;i<users.length;i++)
-    {
-        if(users[i].count==0)
-        {
-            localStorage.not_orders_name = localStorage.not_orders_name ||"[]"
-            not_order_name = JSON.parse(localStorage.not_orders_name)
-            not_order_name.push(users[i].name)
-            localStorage.not_orders_name =JSON.stringify(not_order_name)
-        }
-    }
-} */
 function  list_have_not_meal_people()
 {
     var orders_people = JSON.parse(localStorage.all_order_menu)
+    var have_not_order_name="";
     var str="";
     for(var i=0;i<users.length;i++)
     {
@@ -241,15 +198,12 @@ function  list_have_not_meal_people()
             }
         }
         !is_ordered ? str += '<li>' + users[i].name + '</li>' : "";
-
     }
     return str;
 }
 
-
 function show_not_order_meal_list()
 {
-  //  have_not_order_meal_name()
     var orderPeopleNum=JSON.parse(localStorage.all_order_menu)
     var no_order_meal_people_num=users.length-orderPeopleNum.length;
     var show_not_order_meal_num='<li data-role="list-divider">' + no_order_meal_people_num + '人未定</li>'

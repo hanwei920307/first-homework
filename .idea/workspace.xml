@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e0a82bfd-5814-487a-b994-c5741b623030" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mood-homework-1-lunch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1365659820379" ignored="false" />
     <file path="/index.html" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1365408635786" ignored="false" />
-    <file path="/application.js" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1365666392338" ignored="false" />
+    <file path="/application.js" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1365669486489" ignored="false" />
     <file path="/users.json" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364294507804" ignored="false" />
     <file path="/*.regexp" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1364555546330" ignored="false" />
     <file path="/fragment.js2" changelist="e0a82bfd-5814-487a-b994-c5741b623030" time="1365409945829" ignored="false" />
@@ -59,11 +58,22 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="64" selection-start="5579" selection-end="5579" vertical-scroll-proportion="0.39579684">
+            <state line="141" column="0" selection-start="3304" selection-end="3304" vertical-scroll-proportion="-2.7912087">
               <folding>
-                <marker date="1365666411550" expanded="false" signature="4591:4607" placeholder="..." />
-                <marker date="1365666411550" expanded="true" signature="4608:4674" placeholder="..." />
-                <marker date="1365666411550" expanded="false" signature="4827:4844" placeholder="..." />
+                <marker date="1365669727918" expanded="true" signature="4000:4016" placeholder="..." />
+                <marker date="1365669727918" expanded="true" signature="4236:4253" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hanwei.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/hanwei.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="29" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1365413971045" expanded="false" signature="3626:3642" placeholder="..." />
+                <marker date="1365413971045" expanded="false" signature="3818:3835" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -496,11 +506,6 @@
         <state line="2" column="76" selection-start="47" selection-end="47" vertical-scroll-proportion="0.05357143" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/选套餐.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/users.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="112" selection-end="112" vertical-scroll-proportion="0.24107143">
@@ -518,11 +523,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/首页.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/mood-homework-1-lunch/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8980322">
@@ -533,6 +533,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/选套餐.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/foods.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -540,19 +545,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/hanwei.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="29" selection-start="2630" selection-end="2630" vertical-scroll-proportion="3.2200358">
-          <folding>
-            <marker date="1365413971045" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1365413971045" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/选人.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/首页.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/hanwei.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="29" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1365413971045" expanded="false" signature="3626:3642" placeholder="..." />
+            <marker date="1365413971045" expanded="false" signature="3818:3835" placeholder="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -564,11 +574,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="64" selection-start="5579" selection-end="5579" vertical-scroll-proportion="0.39579684">
+        <state line="141" column="0" selection-start="3304" selection-end="3304" vertical-scroll-proportion="-2.7912087">
           <folding>
-            <marker date="1365666411550" expanded="false" signature="4591:4607" placeholder="..." />
-            <marker date="1365666411550" expanded="true" signature="4608:4674" placeholder="..." />
-            <marker date="1365666411550" expanded="false" signature="4827:4844" placeholder="..." />
+            <marker date="1365669727918" expanded="true" signature="4000:4016" placeholder="..." />
+            <marker date="1365669727918" expanded="true" signature="4236:4253" placeholder="..." />
           </folding>
         </state>
       </provider>
